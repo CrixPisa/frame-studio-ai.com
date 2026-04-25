@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FrameAI Studio</title>
+    <script>
+      var path = window.location.pathname;
+      var search = window.location.search;
+      var hash = window.location.hash;
+      window.location.replace(
+        window.location.origin + '/?p=' + encodeURIComponent(path + search + hash)
+      );
+    </script>
+  </head>
+  <body>
+    <p>Reindirizzamento...</p>
+  </body>
+</html>
