@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9B6DFF"/>
+      <stop offset="100%" style="stop-color:#4F8EF7"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFB547"/>
+      <stop offset="100%" style="stop-color:#FF6B6B"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="32" height="32" rx="7" fill="url(#bg)"/>
+  <!-- Film frame notches top -->
+  <rect x="4" y="3" width="3" height="4" rx="1" fill="white" opacity="0.9"/>
+  <rect x="9" y="3" width="3" height="4" rx="1" fill="white" opacity="0.9"/>
+  <rect x="20" y="3" width="3" height="4" rx="1" fill="white" opacity="0.9"/>
+  <rect x="25" y="3" width="3" height="4" rx="1" fill="white" opacity="0.9"/>
+  <!-- Film frame notches bottom -->
+  <rect x="4" y="25" width="3" height="4" rx="1" fill="white" opacity="0.9"/>
+  <rect x="9" y="25" width="3" height="4" rx="1" fill="white" opacity="0.9"/>
+  <rect x="20" y="25" width="3" height="4" rx="1" fill="white" opacity="0.9"/>
+  <rect x="25" y="25" width="3" height="4" rx="1" fill="white" opacity="0.9"/>
+  <!-- Letter F -->
+  <rect x="9" y="9" width="3" height="14" rx="1.5" fill="white"/>
+  <rect x="9" y="9" width="11" height="3" rx="1.5" fill="white"/>
+  <rect x="9" y="15" width="8" height="2.5" rx="1.25" fill="white" opacity="0.85"/>
+  <!-- AI dot accent -->
+  <circle cx="23" cy="21" r="2.5" fill="url(#acc)"/>
+</svg>
