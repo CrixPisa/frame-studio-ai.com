@@ -1,0 +1,13 @@
+# Downloads pubblici FrameAI
+
+Qui va il pacchetto del plugin Premiere:
+
+  FrameAI-Studio-Premiere.ccx
+
+Per generarlo e pubblicarlo:
+
+  1. Apri UXP Developer Tool → seleziona il plugin → "Package" → ottieni il .ccx
+  2. Esegui da PowerShell:  .\plugins\publish-plugin.ps1 -CcxPath "percorso\del\file.ccx"
+  3. Fai il build/deploy del sito → il file sarà servito su /downloads/FrameAI-Studio-Premiere.ccx
+
+La pagina di download è /plugin (src/pages/PluginPage.tsx).
