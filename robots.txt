@@ -4,8 +4,6 @@ Disallow: /cinema
 Disallow: /ads
 Disallow: /music
 Disallow: /image
-Disallow: /tools
-Disallow: /flow
 Disallow: /dashboard
 
 Sitemap: https://frame-studio-ai.com/sitemap.xml
