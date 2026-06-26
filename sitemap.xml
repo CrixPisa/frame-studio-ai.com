@@ -6,7 +6,7 @@
     <loc>https://frame-studio-ai.com/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-06-26</lastmod>
   </url>
 
   <!-- Prezzi -->
@@ -14,7 +14,15 @@
     <loc>https://frame-studio-ai.com/pricing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-06-26</lastmod>
+  </url>
+
+  <!-- Plugin -->
+  <url>
+    <loc>https://frame-studio-ai.com/plugin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-06-26</lastmod>
   </url>
 
   <!-- Auth -->
@@ -22,43 +30,27 @@
     <loc>https://frame-studio-ai.com/register</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <lastmod>2026-06-26</lastmod>
   </url>
   <url>
     <loc>https://frame-studio-ai.com/login</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
+    <lastmod>2026-06-26</lastmod>
   </url>
 
-  <!-- App principale -->
+  <!-- Info -->
   <url>
-    <loc>https://frame-studio-ai.com/cinema</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://frame-studio-ai.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-06-26</lastmod>
   </url>
   <url>
-    <loc>https://frame-studio-ai.com/image</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-05-17</lastmod>
-  </url>
-  <url>
-    <loc>https://frame-studio-ai.com/music</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-05-17</lastmod>
-  </url>
-  <url>
-    <loc>https://frame-studio-ai.com/ads</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <lastmod>2026-05-17</lastmod>
-  </url>
-  <url>
-    <loc>https://frame-studio-ai.com/tools</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.85</priority>
-    <lastmod>2026-05-17</lastmod>
+    <loc>https://frame-studio-ai.com/contatti</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-06-26</lastmod>
   </url>
 
   <!-- Legale -->
@@ -66,11 +58,19 @@
     <loc>https://frame-studio-ai.com/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+    <lastmod>2026-06-26</lastmod>
   </url>
   <url>
     <loc>https://frame-studio-ai.com/termini</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
+    <lastmod>2026-06-26</lastmod>
+  </url>
+  <url>
+    <loc>https://frame-studio-ai.com/cookie</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+    <lastmod>2026-06-26</lastmod>
   </url>
 
 </urlset>
