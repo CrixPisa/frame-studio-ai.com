@@ -1,13 +1,30 @@
 # Downloads pubblici FrameAI
 
-Qui va il pacchetto del plugin Premiere:
+Generati automaticamente da plugins\publish-plugin.ps1 (esegui da PowerShell
+nella cartella FrameAI dopo ogni modifica ai plugin):
 
-  FrameAI-Studio-Premiere.ccx
+  .\plugins\publish-plugin.ps1
 
-Per generarlo e pubblicarlo:
+File presenti:
+  FrameAI-Studio-Premiere.ccx    -- pacchetto dev (non firmato Adobe)
+  FrameAI-Studio-Photoshop.ccx   -- pacchetto dev (non firmato Adobe)
+  FrameAI-Nuke.zip
+  FrameAI-Resolve.zip
+  FrameAI-VegasPro.zip
+  FrameAI-Blender.zip
+  FrameAI-MCP-Claude.zip
 
-  1. Apri UXP Developer Tool → seleziona il plugin → "Package" → ottieni il .ccx
-  2. Esegui da PowerShell:  .\plugins\publish-plugin.ps1 -CcxPath "percorso\del\file.ccx"
-  3. Fai il build/deploy del sito → il file sarà servito su /downloads/FrameAI-Studio-Premiere.ccx
+Manca: FrameAI-Studio-AE.zxp (After Effects) -- richiede la firma con
+ZXPSignCmd di Adobe (vedi plugins\aftereffects-cep\README.md), non generabile
+automaticamente. Per pubblicarlo:
 
-La pagina di download è /plugin (src/pages/PluginPage.tsx).
+  .\plugins\publish-plugin.ps1 -ZxpPath "percorso\al\file_firmato.zxp"
+
+Per pacchetti Premiere/Photoshop firmati Adobe (invece del pacchetto dev,
+che funziona ma richiede installazione manuale via UXP Developer Tool):
+
+  1. Apri UXP Developer Tool -> seleziona il plugin -> "Package" -> ottieni il .ccx
+  2. .\plugins\publish-plugin.ps1 -CcxPath "percorso\premiere.ccx" -PhotoshopCcxPath "percorso\photoshop.ccx"
+
+La pagina di download e' /plugin (src/pages/PluginPage.tsx). Dopo aver
+rigenerato i file, fai build + deploy del sito.
