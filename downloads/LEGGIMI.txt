@@ -8,17 +8,19 @@ nella cartella FrameAI dopo ogni modifica ai plugin):
 File presenti:
   FrameAI-Studio-Premiere.ccx    -- pacchetto dev (non firmato Adobe)
   FrameAI-Studio-Photoshop.ccx   -- pacchetto dev (non firmato Adobe)
+  FrameAI-Studio-AE.zip          -- pacchetto dev (non firmato Adobe, richiede debug mode)
   FrameAI-Nuke.zip
   FrameAI-Resolve.zip
   FrameAI-VegasPro.zip
   FrameAI-Blender.zip
   FrameAI-MCP-Claude.zip
 
-Manca: FrameAI-Studio-AE.zxp (After Effects) -- richiede la firma con
-ZXPSignCmd di Adobe (vedi plugins\aftereffects-cep\README.md), non generabile
-automaticamente. Per pubblicarlo:
+Per un vero .zxp firmato Adobe (invece del pacchetto dev, che funziona ma
+richiede installazione manuale in debug mode -- vedi README dentro lo zip):
 
-  .\plugins\publish-plugin.ps1 -ZxpPath "percorso\al\file_firmato.zxp"
+  1. Scarica ZXPSignCmd (Adobe, gratuito) e crea un certificato self-signed
+     (istruzioni in plugins\aftereffects-cep\README.md)
+  2. .\plugins\publish-plugin.ps1 -ZxpPath "percorso\al\file_firmato.zxp"
 
 Per pacchetti Premiere/Photoshop firmati Adobe (invece del pacchetto dev,
 che funziona ma richiede installazione manuale via UXP Developer Tool):
